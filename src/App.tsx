@@ -1,15 +1,11 @@
-import React from 'react';
-
+import AppRouter from '@/routes'
+import React from 'react'
 interface AppProps {
   // Define props here
 }
 
 const App: React.FC<AppProps> = () => {
-  return (
-    <div>
-      Your content here
-    </div>
-  );
-};
+  return <AppRouter />
+}
 
-export default App;
+export default App

@@ -1,1 +1,39 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey-900: #0f1729;
+  --grey-800: #525f7a;
+  --grey-700: #67748f;
+  --grey-600: #94a3b8;
+  --grey-500: #cbd5e1;
+  --grey-400: #eef3f6;
+  --grey-300: #f4f8fc;
+  --grey-100: #f5f8fa;
+  --grey-00: #ffffff;
+  --brand-primary: #e5103f;
+  --brand-high: #981527;
+  --brand-medium: #ef586b;
+  --brand-low: #fff5f6;
+  --dangerous-100: #ffebee;
+  --dangerous-200: #e5103f;
+  --dangerous-300: #c62828;
+  --info-200: #2381ff;
+  --warning-100: #fbfaf5;
+  --warning-300: #e65000;
+  --warning-200: #ffae10;
+  --success-100: #e7f5e9;
+  --success-200: #009444;
+  --success-300: #1a5e20;
+  --scrollbar-track: #eef3f6;
+  --scrollbar-thumb: #cbd5e1;
+  --scrollbar-thumb-hover: #94a3b8;
+  --toastify-color-success: #1e9037;
+  --toastify-color-error: #e5103f;
+  --toastify-z-index: 10000;
+}
